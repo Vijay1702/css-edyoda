@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    font-family: system-ui;
+}
+body {
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content : space-between;
+    margin-bottom: 0px;
+    height: 80px;
+}
+header .left{
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+header .left img {
+     width: 150px;
+     height: 60px;
+     padding: 20px;
+     padding-left: 60px;
+}
+header .left p {
+    padding: 15px;
+    font-size: 17px;
+}
+header .right{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+header .right p {
+    padding: 10px;
+    padding-right: 70px;
+    font-size: 14px;
+    color: rgb(186, 198, 198);
+}
+header .right a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: rgb(128, 11, 168);
+    color: white;
+    text-align: center; 
+}
+hr {
+    margin: 0px;
+}
+main {
+    padding: 10px 50px;
+    padding-top: 75px;
+    background-color: #f2f6ff;
+}
+main p {
+    display: flex;
+    align-items: center;
+}
+main p img {
+    width: 24px;
+    background-color:#f2f6ff ;
+    margin-right: 5px;
+}
+.filters button {
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+.filters button:hover,
+.filters button.active {
+    background-image:linear-gradient() ;
+    color: white;
+}
+.posts{
+    margin: 40px 0;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.posts .post {
+    width: 30%;
+    box-shadow: 0 5px 20px 0 rgba(0,168,89);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0,168,89);
+}
+.posts .post img {
+    width: 100%;
+}
+.posts .post .content {
+    padding: 20px;
+    background: white;
+}
+.posts .post .content p span {
+    color: #0096ff;
+}
+footer {
+    background-color: #172146;
+    height:360px;
+}
+footer h4 {
+    padding-top: 3%;
+    font-size: 19px;
+    padding-left: 40%;
+    padding-bottom: 6px;
+    color: #6e80c1;
+}
+footer p {
+    padding-top: 5px;
+    padding-left: 40%;
+    font-size: 13px;
+    color: white;
+}
